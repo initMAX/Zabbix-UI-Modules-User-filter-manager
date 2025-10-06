@@ -1,0 +1,52 @@
+{
+    "manifest_version": "2",
+    "type": "module",
+    "author": "initMAX s.r.o.",
+    "name": "User Filter Manager",
+    "description": "Copy, transfer and assign saved filters between users and user groups.",
+    "url": "https://git.initmax.cz",
+    "id": "userfiltermax",
+    "namespace": "UserFilterMAX",
+    "version": "7.0-0",
+    "assets": {
+      "css": ["style.css"],
+      "js": []
+    },
+    "actions": {
+      "mod.userfiltermax.list": {
+        "class": "UserFilterMaxList",
+        "layout": "layout.htmlpage",
+        "view": "mod.userfiltermax.list"
+      },
+      "mod.userfiltermax.suggest": {
+        "class": "Suggest",
+        "layout": "layout.json"
+      },
+      "mod.userfiltermax.popup.sourcefilter": {
+        "class": "PopupSourceFilter",
+        "layout": "layout.json",
+        "view": "mod.userfiltermax.popup.sourcefilter"
+      },
+      "mod.userfiltermax.form": {
+        "class": "UserFilterMaxForm",
+        "layout": "layout.json",
+        "view": "mod.userfiltermax.form"
+      },
+      "mod.userfiltermax.create": {
+        "class": "UserFilterMaxCreate",
+        "layout": "layout.json"
+      },
+      "mod.userfiltermax.update": {
+        "class": "UserFilterMaxUpdate",
+        "layout": "layout.json"
+      },
+      "mod.userfiltermax.delete": {
+        "class": "UserFilterMaxDelete",
+        "layout": "layout.json"
+      },
+      "mod.userfiltermax.run": {
+        "class": "UserFilterMaxRun",
+        "layout": "layout.json"
+      }
+    }
+  }
