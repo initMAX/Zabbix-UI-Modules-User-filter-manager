@@ -1,0 +1,12 @@
+02-form.png:
+  en: "Select a source user and saved filter, choose destination users or groups, then copy and run the assignment from one dialog."
+  cs: "Vyberte zdrojového uživatele a uložený filtr, zvolte cílové uživatele nebo skupiny a přeneste nastavení z jednoho dialogu."
+dashboard.png:
+  en: "Manage shared filter assignments centrally instead of recreating the same saved view for every user."
+  cs: "Spravujte přiřazení sdílených filtrů centrálně místo opakovaného vytváření stejného pohledu pro každého uživatele."
+widget.png:
+  en: "User Filter Manager integrates into the native Zabbix administration navigation."
+  cs: "Správce uživatelských filtrů se integruje do nativní administrace Zabbixu."
+03-source-filters.png:
+  en: "The source: a user's saved filter tabs on Problems - this is what gets copied to the other users and groups."
+  cs: "Zdroj: uložené záložky filtrů uživatele na stránce Problems - právě ty se kopírují ostatním uživatelům a skupinám."
